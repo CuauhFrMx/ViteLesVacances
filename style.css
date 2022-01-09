@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #5e00ea;
+  display: flex;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+
+.container {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size:4.5rem;
+}
+
+li .days {
+  opacity: 1;
+}
+
+li .hours {
+  opacity: .9;
+}
+
+li .minutes {
+  opacity: .8;
+}
+
+li .seconds {
+  opacity: .7;
+}
+
+li .mlseconds {
+  opacity: .6;
+}
+
+.days2 {
+  font-size: 1.25em;
+}
+
+.hours2 {
+  font-size: 1.25em;
+}
+
+.minutes2 {
+  font-size: 1.25em;
+}
+
+.seconds2 {
+  font-size: 1.25em;
+}
+
+.mlseconds2 {
+  font-size: 1.25em;
+}
+
+
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media (max-width: 810px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .days {
+    font-size: 4.5rem;
+  }
+
+  .hours {
+    font-size: 4.5rem;
+  }
+
+  .mlseconds {
+    font-size: 2.5rem;
+  }
+
+  li span {
+    font-size: 3rem;
+  }
+}
+  
